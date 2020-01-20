@@ -1,10 +1,12 @@
-# Analog Clock
+# Candlestick Clock
 
-This app is an example of an analog clock.
-It has a light theme and a dark theme, and displays sample weather and location data.
+This app is an example of an Candlestick clock.
+It has an animating background which changes based on the timings of the entire day.
 
-<img src='analog.gif' width='350'>
+<img src='3_59AM.jpg' width='350'>
 
-<img src='analog_dark.png' width='350'>
+<img src='7_30PM.jpg' width='350'>
 
-<img src='analog_light.png' width='350'>
+<img src='12_59PM.jpg' width='350'>
+
+<img src='9_59AM.jpg' width='350'>
