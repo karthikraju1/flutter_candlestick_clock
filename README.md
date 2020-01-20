@@ -1,15 +1,19 @@
 # Flutter Clock
 
-Welcome to Flutter Clock!
+Welcome to Candlestick Clock designed using FLUTTER SDK!
 
-See [flutter.dev/clock](https://flutter.dev/clock) for how to get started, submission requirements, contest rules, and FAQs.
+Example [Candlestick Clock](At Morning)
 
-See a [live demo](https://maryx.github.io/flutter_clock) with Flutter for Web!
+<img src='analog_clock/9_59AM.jpg' width='350'>
 
-Example [Analog Clock](analog_clock)
+Example [Candlestick Clock](At Afternoon)
 
-<img src='analog_clock/analog.gif' width='350'>
+<img src='digital_clock/12_59PM.jpg' width='350'>
 
-Example [Digital Clock](digital_clock)
+Example [Candlestick Clock](At Evening)
 
-<img src='digital_clock/digital.gif' width='350'>
+<img src='digital_clock/7_30PM.jpg' width='350'>
+
+Example [Candlestick Clock](At Night)
+
+<img src='digital_clock/3_59AM.jpg' width='350'>
