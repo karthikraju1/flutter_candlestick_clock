@@ -1,4 +1,4 @@
-# Flutter Clock
+# Candlestick Clock
 
 Welcome to Candlestick Clock designed using FLUTTER SDK!
 
