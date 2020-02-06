@@ -1,6 +1,7 @@
 // Copyright 2019 The Chromium Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
+// Author: V Karthik Raju
 
 import 'dart:async';
 
@@ -114,8 +115,10 @@ class _CandlestickClockState extends State<
     //Setting the setter 'value' of AnimationController object (within the range 0.0 to 1.0)
     // as per the number of seconds elapsed as of now for the entire day
     // in order to set the appropriate background color.
-    _controller.value = (1 / 86400) *
-        (((_now.hour - 1) * 60 * 60) + (_now.minute * _now.second));
+    _controller.value = (_now.second == 0)
+        ? (1 / 86400) *
+            (((_now.hour) * 60 * 60) + (((_now.minute - 1) * 60) + 1))
+        : (1 / 86400) * (((_now.hour) * 60 * 60) + (_now.minute * _now.second));
 
     return Semantics.fromProperties(
       properties: SemanticsProperties(
