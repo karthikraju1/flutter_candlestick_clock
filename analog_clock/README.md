@@ -1,6 +1,6 @@
 # Candlestick Clock
 
-This app is an example of an Candlestick clock.
+This is Candlestick clock.
 It has an animating background which changes based on the timings of the entire day.
 
 <img src='3_59AM.jpg' width='350'>
